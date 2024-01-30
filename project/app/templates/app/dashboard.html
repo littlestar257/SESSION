@@ -1,0 +1,14 @@
+{% extends 'app/base.html' %}
+{% block content %}
+{% load static %}
+<body>
+    <div style="background-image: url({% static 'image/bg101.webp' %}); height: 533px; width: px;  background-repeat: no-repeat; background-size: cover; background-attachment: fixed;">
+        <div style="margin-left: 500px; padding: 20px;">
+            <h1>WELCOME !!!</h1>
+            <h2 style="margin-left: 50px;">{{data}}</h2>
+            <br><br>
+            <a href="" style="margin-left: 20px;">click here to continue</a>
+        </div>
+    </div>
+</body> 
+{% endblock%}
